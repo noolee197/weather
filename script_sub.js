@@ -22,7 +22,7 @@ function search(){
     var city = document.getElementById("name_city").value;
   //Khai báo các biến để
     var API_Key ="fd475a824363c8b07e4587df1e310f9a";
-    var url=`http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_Key}`;
+    var url=`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_Key}`;
     //In ra console 
     console.log("Click Search");
     console.log("City:="+city);
