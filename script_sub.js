@@ -33,7 +33,7 @@ function search(){
       function(response) {  
         if (response.status !== 200) {  
           console.log('Có lỗi!!!'+ response.status); 
-          alert('Có lỗi!!! Thành phố '+city+'không tồn tại' + response.status);  
+          alert('Có lỗi!!! Thành phố '+city+' không tồn tại. Mã lỗi: ' + response.status);  
           return ; 
         // in response trả về lên màn hình bằng các gọi json
         }
